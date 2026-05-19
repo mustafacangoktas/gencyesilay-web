@@ -54,3 +54,5 @@ node_modules/
 /public/ig
 scripts/import-ig-events.ts
 *.db
+# Custom Scripts
+scripts/change-password.ts
