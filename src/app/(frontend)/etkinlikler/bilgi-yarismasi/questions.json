@@ -1,0 +1,483 @@
+{
+  "$schema": "./questions.schema.json",
+  "meta": {
+    "title": "Üniversite Kafa Açan Bilgi Yarışması (Hardcore Sürüm)",
+    "subtitle": "Psikoloji, nörobilim, dijital toksisite ve Yeşilay'ın derin literatüründen derlenmiş acımasız sorular.",
+    "version": 3
+  },
+  "praise": [
+    "Oha! Bunu gerçekten sallamadan mı bildin? 🧠",
+    "Saygı duydum, algoritmayı hackledin resmen.",
+    "Bölüm birinciliği loading...",
+    "Bunu sadece Makine Öğrenimi modelleri ve sen biliyorsun.",
+    "Aydınlanma çağına hoş geldin kardeşim!",
+    "Dekanlık seni arıyor, direkt diplomayı vereceklermiş."
+  ],
+  "roast": [
+    "Salla kazan dönemindeyiz sanırım? Olmadı.",
+    "Beyin RAM'in yetmedi, bir F5 at istersen.",
+    "ChatGPT bile buna senin kadar özgüvenli yanlış cevap vermezdi.",
+    "Kardeşim sen bence biraz çimene falan dokun (Touch grass).",
+    "TikTok algoritması beynini sulandırmış, acil detoks şart.",
+    "Bu soruyu yanlış yapmak için özel bir çaba sarf etmiş olmalısın."
+  ],
+  "questions": [
+    {
+      "id": "q16",
+      "category": "Yapay Zeka & Etik",
+      "difficulty": "zor",
+      "prompt": "2023-2024 akademik yılında, Turnitin gibi intihal tespit sistemlerinin en büyük hedefi haline gelen ve 'Zero-Shot Reasoning' (sıfır atışlı akıl yürütme) kapasitesiyle ödevlerdeki insan/makine ayrımını bulanıklaştıran araç/model hangisidir?",
+      "choices": [
+        "Claude 3.5 Sonnet",
+        "ChatGPT (GPT-4 Mimarisi)",
+        "Google Gemini Pro",
+        "Mistral Large"
+      ],
+      "answerIndex": 1,
+      "explanation": "Özellikle GPT-4'ün piyasaya sürülmesi, metin üretimindeki gelişmiş mantık yürütme yeteneği sayesinde yapay zeka tespit sistemlerini atlatarak akademide devasa bir kriz yarattı."
+    },
+    {
+      "id": "q17",
+      "category": "İnternet Kültürü",
+      "difficulty": "zor",
+      "prompt": "'Brain rot' ifadesi, Z kuşağı dijital argosunda tam olarak hangi spesifik durumu tanımlamak için kullanılır?",
+      "choices": [
+        "İnternetteki eski forum kültürünün yok olması",
+        "Aşırı algoritmik kısa içerik (Reels/TikTok) tüketimi sonucu hiper-aktifleşen ama odaklanamayan zihin yapısı",
+        "Siber zorbalık sonrası yaşanan akut depresif süreç",
+        "Açık dünya oyunlarında ana hikayeden kopup yan görevlerde kaybolma durumu"
+      ],
+      "answerIndex": 1,
+      "explanation": "Brain rot (beyin çürümesi), durmaksızın anlamsız kısa video kaydırmanın yarattığı bilişsel yorgunluğu ve dikkat eksikliğini mizahi ama acı bir şekilde ifade eder."
+    },
+    {
+      "id": "q18",
+      "category": "Psikoloji",
+      "difficulty": "zor",
+      "prompt": "FOMO'nun (Fear of Missing Out) psikolojik literatürde ve dijital çağda zıttı olarak konumlandırılan, 'çevrimiçi dünyayı ve trendleri kaçırdığı için huzur duyma' durumu hangi kısaltmayla ifade edilir?",
+      "choices": [
+        "MOMO (Mystery of Missing Out)",
+        "JOMO (Joy of Missing Out)",
+        "ROMO (Relief of Missing Out)",
+        "FOGO (Fear of Going Out)"
+      ],
+      "answerIndex": 1,
+      "explanation": "JOMO, bilinçli olarak bağlantıyı kesmenin ve sosyal medyada olan biteni kaçırmaktan zevk almanın psikolojik karşılığıdır."
+    },
+    {
+      "id": "q19",
+      "category": "Teknoloji ve Sağlık",
+      "difficulty": "zor",
+      "prompt": "Akıllı telefonlardaki 'mavi ışık' salınımının sirkadiyen ritmi bozmasının temel biyokimyasal nedeni aşağıdakilerden hangisidir?",
+      "choices": [
+        "Kortizol üretimini uyararak kalp ritmini hızlandırması",
+        "Gözdeki fotoreseptörleri aşırı doyurarak beyne 'gündüz' sinyali göndermesi ve Epifiz bezinin melatonin üretimini baskılaması",
+        "Serotonin seviyelerini düşürerek gece anksiyetesini tetiklemesi",
+        "Dopamin reseptörlerini bloke ederek REM uykusuna geçişi engellemesi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mavi ışık beyni güneşin hala havada olduğuna inandırır. Bu da uykuya dalmamızı sağlayan melatonin hormonunun salgılanmasını durdurur."
+    },
+    {
+      "id": "q20",
+      "category": "Dijital Yaşam",
+      "difficulty": "zor",
+      "prompt": "Aza Raskin tarafından icat edilen 'Infinite Scroll' (Sonsuz Kaydırma) arayüz tasarımının, psikolojideki karşılığı olan ve farelerin pedala basarak sürekli ödül aramasını tanımlayan kavram hangisidir?",
+      "choices": [
+        "Pavlov'un Köpeği Refleksi",
+        "Zeigarnik Etkisi",
+        "Skinner Kutusu (Değişken Oranlı Pekiştirme)",
+        "Bilişsel Çelişki Teorisi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sonsuz kaydırma, bir sonraki videonun veya gönderinin ne kadar iyi (ödül) olacağını bilememenin yarattığı kumarbaz psikolojisidir (Skinner Box)."
+    },
+    {
+      "id": "q21",
+      "category": "İlişki Psikolojisi",
+      "difficulty": "zor",
+      "prompt": "Adını 1938 tarihli bir tiyatro oyunundan alan 'Gaslighting' teriminin dijital/modern ilişkilerdeki en spesifik ve yıkıcı örneği aşağıdakilerden hangisidir?",
+      "choices": [
+        "Partnerin sosyal medya şifrelerini ondan habersiz ele geçirmek",
+        "Somut dijital kanıtlara (mesaj/fotoğraf) rağmen, sistematik yalanlarla partneri kendi hafızasından ve akıl sağlığından şüphe etmeye zorlamak",
+        "Sosyal medyada kasıtlı olarak partneri kıskandıracak hikayeler paylaşmak",
+        "Tartışma sırasında çevrimiçi durumu kapatıp mesajları haftalarca 'görüldü'de bırakmak"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gaslighting basit bir yalan söyleme eylemi değil; karşı tarafın gerçeklik algısını çökertmeyi hedefleyen ağır bir psikolojik manipülasyondur."
+    },
+    {
+      "id": "q22",
+      "category": "Siber Güvenlik",
+      "difficulty": "zor",
+      "prompt": "Hedefli oltalama (Spear Phishing) saldırılarını geleneksel 'Phishing' yöntemlerinden ayıran en kritik faktör nedir?",
+      "choices": [
+        "Sadece kripto para cüzdanlarını (Cold Wallet) hedef alması",
+        "Saldırının sadece SMS yoluyla (Smishing) gerçekleştirilmesi",
+        "Fidye yazılımı (Ransomware) indirmeden hiçbir şekilde çalışamaması",
+        "Milyonlarca kişiye rastgele atılmak yerine; kişinin çalıştığı kuruma, ismine veya ilgi alanlarına göre derinlemesine araştırılmış (OSINT) kişiselleştirilmiş içerik kullanması"
+      ],
+      "answerIndex": 3,
+      "explanation": "Normal phishing ağ atmak gibidir, spear phishing ise zıpkınla belirli bir balığı (kişiyi) hedefler; çok daha inandırıcı ve tehlikelidir."
+    },
+    {
+      "id": "q23",
+      "category": "Nörobilim",
+      "difficulty": "zor",
+      "prompt": "REM uykusu eksikliğinin 20'li yaşlardaki bireylerde (özellikle öğrencide) yarattığı en büyük bilişsel yıkım hangi fonksiyonda görülür?",
+      "choices": [
+        "Kısa süreli bellekte gün boyu biriken bilgilerin uzun süreli belleğe konsolidasyonu (aktarımı) ve yaratıcı problem çözme",
+        "Motor nöronların kaslara ilettiği refleks ve tepki süresi (Twitch reflex)",
+        "Sadece görsel-uzamsal zeka gerektiren (örn. üç boyutlu çizim) yeteneklerin körleşmesi",
+        "Sempatik sinir sisteminin ani tehlike anındaki 'savaş veya kaç' tepkisi"
+      ],
+      "answerIndex": 0,
+      "explanation": "Uyku sadece dinlenme değil, beynin 'kaydet' tuşuna bastığı andır. Sabahlarsanız öğrendiğiniz bilgiler kalıcı belleğe yazılamaz."
+    },
+    {
+      "id": "q24",
+      "category": "Bulut & Akademi",
+      "difficulty": "zor",
+      "prompt": "2024 itibarıyla üniversite öğrencilerinin tez ve proje yazımında, eşzamanlı sürüm kontrolü (version control) ve akademik referans yönetimi için bulut entegrasyonuyla en çok kullandıkları gelişmiş araç ikilisi hangisidir?",
+      "choices": [
+        "Google Drive & WinRAR",
+        "Notion & Mendeley / Zotero",
+        "Evernote & EndNote",
+        "Dropbox & Microsoft Word 2013"
+      ],
+      "answerIndex": 1,
+      "explanation": "Notion karmaşık projeleri yönetmek için, Mendeley veya Zotero ise akademik atıfları otomatik dizmek için modern öğrencilerin vazgeçilmezidir."
+    },
+    {
+      "id": "q25",
+      "category": "Ağ Teknolojileri",
+      "difficulty": "zor",
+      "prompt": "VPN (Sanal Özel Ağ) kullanırken, internet servis sağlayıcınızın (ISP) teorik olarak göremediği, ancak log tutan bir 'VPN şirketinin' rahatlıkla kayıt altına alabileceği kritik veri parçası aşağıdakilerden hangisidir?",
+      "choices": [
+        "Cihazınızın donanımsal MAC adresi",
+        "WhatsApp veya bankacılık uygulamalarınızdaki uçtan uca şifrelenmiş (E2EE) mesaj/şifre içerikleri",
+        "İnternet tarayıcınızın arka planda yaptığı DNS sorguları ve girdiğiniz sitelerin tam bağlantı adresleri",
+        "Wi-Fi modeminizin arayüz şifresi"
+      ],
+      "answerIndex": 2,
+      "explanation": "VPN, veriyi İSS'den gizler ama VPN şirketine teslim eder. Güvenilir olmayan, bedava bir VPN kullanıyorsanız tüm trafik geçmişiniz (DNS sorguları) satılıyor olabilir."
+    },
+    {
+      "id": "q26",
+      "category": "Oyun Kültürü",
+      "difficulty": "zor",
+      "prompt": "Oyunlardaki 'Loot box' (Ganimet kutusu) mekaniklerinin, Dünya Sağlık Örgütü (WHO) tarafından 'Gaming Disorder' (Oyun Bozukluğu) kapsamında incelenmesinin ve birçok Avrupa ülkesinde yasaklanmasının temel nedeni nedir?",
+      "choices": [
+        "Oyun içi ekonomide enflasyon yaratarak E-spor rekabetini haksızlaştırması",
+        "Kutulardan çıkan eşyaların rastgele oranlarla (RNG) belirlenmesi nedeniyle, beyindeki dopaminerjik ödül yollarını doğrudan kumarhane slot makineleriyle aynı şekilde tetiklemesi",
+        "Oyun şirketlerinin reşit olmayan kullanıcıların verilerini kara borsada satması",
+        "İnternet bağlantısı koptuğunda oyuncunun tüm parasını sıfırlayan kod açıklarına sahip olması"
+      ],
+      "answerIndex": 1,
+      "explanation": "İçinden ne çıkacağı belli olmayan paralı kutular, modern oyun dünyasının yasal kılıfa sokulmuş dijital kumar makineleridir."
+    },
+    {
+      "id": "q27",
+      "category": "Metabolizma",
+      "difficulty": "zor",
+      "prompt": "Sınav haftası yoğun miktarda rafine şeker (enerji içeceği/çikolata) tüketmenin hemen ardından yaşanan 'Sugar Crash' (Şeker Çöküşü) olayında, kanda hangi hormonun ani ve aşırı salınımı başrol oynar?",
+      "choices": ["Glukagon", "Adrenalin", "Kortizol", "İnsülin"],
+      "answerIndex": 3,
+      "explanation": "Aşırı şeker alındığında pankreas paniğe kapılıp yüksek dozda insülin salgılar. Bu da kan şekerini aniden diplere çekerek kişiyi yorgun, uykulu ve depresif hale getirir."
+    },
+    {
+      "id": "q28",
+      "category": "Yapay Zeka Mimarisi",
+      "difficulty": "zor",
+      "prompt": "Deepfake teknolojisinin temelini oluşturan, birbiriyle rekabet eden iki farklı sinir ağından (biri sahte içerik üreten, diğeri bunun sahte olup olmadığını ayırt etmeye çalışan) oluşan yapay zeka mimarisi aşağıdakilerden hangisidir?",
+      "choices": [
+        "LLM (Large Language Models)",
+        "GAN (Generative Adversarial Networks - Çekişmeli Üretici Ağlar)",
+        "CNN (Convolutional Neural Networks)",
+        "RNN (Recurrent Neural Networks)"
+      ],
+      "answerIndex": 1,
+      "explanation": "GAN mimarisinde 'Üretici' sürekli daha iyi sahte yüzler yapar, 'Ayırt edici' ise onu yakalamaya çalışır. Sonuçta gerçeğinden farksız sahte videolar (Deepfake) ortaya çıkar."
+    },
+    {
+      "id": "q29",
+      "category": "Verimlilik",
+      "difficulty": "zor",
+      "prompt": "Zaman yönetimi felsefesinde 'Parkinson Yasası' neyi ifade eder ve üniversite öğrencilerinin projeleri 'son geceye bırakmasına' (Procrastination) nasıl bir bilimsel açıklama getirir?",
+      "choices": [
+        "Bir iş, daima ona ayrılan sürenin tamamını kapsayacak şekilde genişler (Bir ödev için 1 ay verilirse, beyin o işi 1 ay sürecekmiş gibi algılar ve yayar).",
+        "En zor görevler sabahın ilk saatlerinde bitirilirse dopamin en yüksek seviyeye çıkar, diğer saatlerde verim %50 düşer.",
+        "İnsan beyni aynı anda maksimum 3 farklı göreve odaklanabilir, 4. görev eklendiğinde sistem çöker.",
+        "Mola vermeden çalışılan her 90 dakika, beynin prefrontal korteksini küçültür."
+      ],
+      "answerIndex": 0,
+      "explanation": "Parkinson Yasasına göre süreyi ne kadar uzun tutarsanız iş de o kadar gereksiz detaya boğulur veya ertelenir. Dar teslim tarihleri (deadline) bu yüzden her zaman daha yüksek odak getirir."
+    },
+    {
+      "id": "q30",
+      "category": "Sosyoloji",
+      "difficulty": "zor",
+      "prompt": "Twitch yayıncıları veya YouTuber'larla kurulan 'Parasosyal İlişkiler'in tehlikeli boyuta ulaşmasının psikolojideki temel göstergesi nedir?",
+      "choices": [
+        "Yayıncıya düzenli olarak maddi destek (donate/abonelik) sağlamak ve isim okutmaya çalışmak",
+        "İzleyicinin, kendisini ekrandan dahi tanımayan içerik üreticisiyle gerçek bir karşılıklı dostluk, sırlar paylaşma veya romantik bir bağ içinde olduğuna dair sanrısal bir inanç geliştirmesi",
+        "Yayıncının oynadığı oyunları takıntı haline getirip sürekli aynı oyunları satın alma eğilimi",
+        "Gerçek hayattaki arkadaş gruplarından kopup sadece yayıncının Discord sunucusunda vakit geçirmek"
+      ],
+      "answerIndex": 1,
+      "explanation": "Parasosyal ilişkiler tek taraflıdır. Beyin, ekranda sürekli gördüğü ve göz teması kurduğu (kameraya bakan) kişiyi gerçek hayattaki kankası veya partneri olarak kodlamaya başlar."
+    },
+    {
+      "id": "q31",
+      "category": "Biyokimya",
+      "difficulty": "zor",
+      "prompt": "Kafeinin uyanık tutma mekanizması, kahvenin bize sihirli bir enerji vermesinden değil; gün boyu birikerek beynimizde 'yorgunluk ve uyku' hissini yaratan hangi reseptörleri bloke etmesinden kaynaklanır?",
+      "choices": [
+        "Dopamin reseptörleri",
+        "GABA reseptörleri",
+        "Adenozin reseptörleri",
+        "Serotonin reseptörleri"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kafein molekülü, Adenozin molekülüne çok benzer. Beyindeki alıcılara Adenozin yerine Kafein oturduğunda beyin 'yorgunum' sinyalini alamaz."
+    },
+    {
+      "id": "q32",
+      "category": "Evrimsel Psikoloji",
+      "difficulty": "zor",
+      "prompt": "Tristan Harris'in 'Time Well Spent' hareketinde de sıklıkla vurguladığı gibi, uygulamalardaki bildirim ikonlarının (badge) hemen hemen hepsinde Kırmızı renk kullanılmasının evrimsel alt metni nedir?",
+      "choices": [
+        "Kırmızının OLED dijital ekranlarda en az piksel enerjisi tüketen renk olması",
+        "İnsanlık tarihi boyunca doğada tehlike, kan veya olgun meyve (acil ödül/tehdit) sinyali olarak kodlanıp amigdalayı en hızlı ve karşı konulmaz şekilde uyaran renk olması",
+        "Kırmızının gece modunda (dark mode) mavi ışıktan daha kolay filtrelenebilmesi",
+        "İnsan retinasındaki koni hücrelerinin yüzde 90'ının sadece kırmızı dalga boyuna odaklanabilmesi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Milyonlarca yıllık evrimimiz bizi kırmızı renge ani tepki vermeye kodladı. Teknoloji devleri bu biyolojik açığı (bug'ı) dikkatimizi çalmak için kullanıyor."
+    },
+    {
+      "id": "q33",
+      "category": "Siber Suçlar",
+      "difficulty": "zor",
+      "prompt": "'Catfishing' eyleminin bir adım ötesi olan ve kişinin sadece sahte kimlik yaratmakla kalmayıp, aylar boyunca duygusal bir bağ kurduğu hedef kişiyi finansal dolandırıcılık veya şantaj için manipüle etmesini tanımlayan hukuki/siber terim hangisidir?",
+      "choices": [
+        "Doxing",
+        "Swatting",
+        "Romance Scam (Aşk Dolandırıcılığı / Tatlı Dil Dolandırıcılığı)",
+        "Cyberstalking"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tinder Swindler gibi vakalar bunun en meşhur örneğidir. Kurban manipüle edilerek tüm birikimi veya kredi kartları kendi isteğiyle dolandırıcıya aktarılır."
+    },
+    {
+      "id": "q34",
+      "category": "Trendler & Yanılgılar",
+      "difficulty": "zor",
+      "prompt": "Silikon Vadisi'nde popülerleşen 'Dopamin Detoksu'nun (Dopamine Fasting) nörobiyolojik açıdan birçok doktor tarafından eleştirilen ve 'kavramsal bir yanılgı' olarak adlandırılan yönü nedir?",
+      "choices": [
+        "Dopaminin sadece dijital cihazlar ve sosyal medya ile salgılanan yapay bir madde sanılması",
+        "Beynin dopamin üretimini iradeyle durdurmanın imkansız olması ve dopaminin sadece 'zevk' değil, su içmek veya ayağa kalkmak gibi temel motivasyon/motor fonksiyonlar için de şart olması",
+        "Detoksun 24 saatten kısa sürdüğünde böbrek üstü bezlerine kalıcı zarar vermesi",
+        "Detoksun sadece yeşil yapraklı sebzelerle beslenerek yapılabileceği inancı"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dopaminden kaçamazsınız. Bu akımın asıl amacı dopamini sıfırlamak değil, beyni ucuz dopaminden (sosyal medya) uzaklaştırıp 'zor kazanılan' dopamine (kitap okumak) yeniden alıştırmaktır."
+    },
+    {
+      "id": "q35",
+      "category": "Mizah ve Felsefe",
+      "difficulty": "zor",
+      "prompt": "İnternet kültüründe 'NPC' (Non-Player Character) hakareti, herhangi bir özgür iradesi olmayan, ezbere kalıp cümleler kuran insanları tanımlar. Bu internet argosu, felsefi literatürdeki hangi ünlü düşünce deneyiyle birebir aynı korkuyu paylaşır?",
+      "choices": [
+        "Schrödinger'in Kedisi (Kuantum Belirsizliği)",
+        "Platon'un Mağara Alegorisi (Gölge Gerçekliği)",
+        "Felsefi Zombiler (Kendi iç dünyası veya bilinci olmadan tıpkı insan gibi tepki veren hipotetik varlıklar)",
+        "Ockham'ın Usturası (Basitlik İlkesi)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Felsefi zombi argümanı, dışarıdan insan gibi görünen ama içeride hiçbir bilinçsel ışığı yanmayan varlıkları tartışır. İnternetteki NPC tanımının kelimenin tam anlamıyla akademik kopyasıdır."
+    },
+    {
+      "id": "q36",
+      "category": "Dijital Hastalıklar",
+      "difficulty": "zor",
+      "prompt": "Uzun süreli masa başı çalışma ve kafayı eğerek telefon kullanımına bağlı olarak gelişen, boyun omurgasının biyomekanik olarak 'C' harfi şeklindeki doğal eğriliğini kaybedip düzleşmesi tıp literatüründe ve güncel argoda hangi isimle anılır?",
+      "choices": [
+        "Carpal Tunnel Syndrome (Karpal Tünel)",
+        "Sciatica (Siyatik)",
+        "Skolyoz (Omurga Eğriliği)",
+        "Text Neck (Mesaj Boynu) / Servikal Lordoz Kaybı"
+      ],
+      "answerIndex": 3,
+      "explanation": "Kafanızı telefona eğdiğinizde, boyun omurlarınıza binen yük 27 kilograma kadar çıkabilir. Bu da zamanla boyun düzleşmesi denilen kalıcı postür bozukluğunu yaratır."
+    },
+    {
+      "id": "q37",
+      "category": "Algoritma",
+      "difficulty": "zor",
+      "prompt": "TikTok'un popülerleşmesini sağlayan 'For You' (Sizin İçin) sayfasının temelinde yatan ve kullanıcının videoyu 'beğenmesinden' veya 'yorum yapmasından' bile daha çok ağırlık puanı vererek bağımlılığı garantileyen metrik nedir?",
+      "choices": [
+        "Collaborative Filtering (Benzer kullanıcı analizi)",
+        "Watch-Time Optimization / Retention Rate (Videoyu duraksamadan izleme süresi ve tamamlama oranı)",
+        "Profil Ziyaret Sıklığı",
+        "End-to-End Encryption (Uçtan uca şifreleme süresi)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Beğeni atmak bilinçli bir eylemdir ama videoya bakakalmak bilinçdışıdır. Algoritma sizin ne dediğinize değil, gözlerinizi ekrandan ne kadar süre alamadığınıza bakar."
+    },
+    {
+      "id": "q38",
+      "category": "Finansal Psikoloji",
+      "difficulty": "zor",
+      "prompt": "Kripto piyasalarında veya borsada, bir varlığın fiyatının sonsuza dek artacağı yanılgısıyla FOMO'ya kapılıp en tepeden alım yapan tecrübesiz yatırımcıları avlamak için balinaların (büyük yatırımcıların) kurduğu sisteme teknik analizde ne ad verilir?",
+      "choices": [
+        "Bear Trap (Ayı Tuzağı)",
+        "Bull Trap (Boğa Tuzağı) / Exit Liquidity (Çıkış Likiditesi)",
+        "Short Squeeze (Açığa Sıkıştırma)",
+        "Dead Cat Bounce (Ölü Kedi Sıçraması)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Piyasa yükseliyor gibi gösterilir, acemi yatırımcılar zengin olacağım diye içeri dalar. Büyük oyuncular ellerindeki malları bu acemilere yüksek fiyattan satarak (exit liquidity) piyasadan kaçar."
+    },
+    {
+      "id": "q39",
+      "category": "Sosyal Medya",
+      "difficulty": "zor",
+      "prompt": "Instagram, Twitter veya Reddit'te hesabınızın 'Shadowban' (Gölge Yasak) yediğini, size hiçbir bildirim gelmemesine rağmen teknik olarak anlamanın en kesin yolu aşağıdakilerden hangisidir?",
+      "choices": [
+        "Uygulamanın günde en az 3 kez çökmesi veya donması",
+        "Sizi takip etmeyen bağımsız bir hesabın, gönderinizde kullandığınız spesifik ve benzersiz bir hashtag'i arattığında sizin gönderinizi 'En Yeniler' akışında kesinlikle bulamaması",
+        "Profil fotoğrafınızın başka kullanıcılarda rastgele gri veya siyah bir daire olarak görünmesi",
+        "Size gönderilen DM'lerin (direkt mesaj) okunduktan 24 saat sonra otomatik olarak silinmesi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gölge yasak, sizi sistemden silmez, görünmez yapar. Kendi takipçileriniz sizi görür ama algoritma sizi 'keşfet' veya 'hashtag' sayfalarından tamamen silerek hapseder."
+    },
+    {
+      "id": "q40",
+      "category": "Bilişsel Bilim",
+      "difficulty": "zor",
+      "prompt": "Nörobilimsel araştırmalara göre, insan beyni aynı anda hem dizi izleyip hem ödev yaptığını sanırken (Multitasking), gerçekte nasıl bir reaksiyon gösterir?",
+      "choices": [
+        "Tamamen eşzamanlı (Parallel Processing) işler ve beynin işlem hacmi (IQ) anlık olarak artar.",
+        "Ön beyin fonksiyonlarını kapatıp işlemleri refleksif olarak amigdalaya devreder.",
+        "Görevler arasında sürekli ve inanılmaz hızda geçiş (Task-switching) yapar, bu da 'Geçiş Maliyeti' (Switch Cost) yaratarak zihinsel enerjiyi hızla tüketir ve hata oranını artırır.",
+        "Bir görevi sağ loba, diğerini sol loba kalıcı olarak paylaştırarak beyni iki bağımsız işlemci gibi çalıştırır."
+      ],
+      "answerIndex": 2,
+      "explanation": "İnsan beyni aynı anda iki bilişsel işlem yapamaz. Sadece dikkati saniyeden kısa sürelerde bir o yana bir bu yana atar. Bu sürekli vites değiştirmek gibidir, beynin motorunu yakar."
+    },
+    {
+      "id": "q41",
+      "category": "İnternet Kültürü",
+      "difficulty": "zor",
+      "prompt": "İnternet argosundaki 'Touch Grass' (Çimene Dokun) ifadesinin temel psikolojik alt metni, bireyin hangi hastalıklı durumdan koptuğunu yüzüne vurmak için kullanılır?",
+      "choices": [
+        "Doğal beslenmeyi tamamen bırakıp sürekli işlenmiş gıda (fast-food) tüketmesinden",
+        "Fiziksel spor yapmak yerine e-spor maçlarını izlemeyi bir yaşam amacı haline getirmesinden",
+        "Kripto para piyasalarında sürekli likit olup (para kaybedip) derin bir klinik depresyona girmesinden",
+        "Aşırı çevrimiçi tartışmalar, fanatizm ve 'Yankı Fanusları' (Echo Chamber) içinde kalarak somut gerçeklikten ve dış dünyanın normal sosyal normlarından tamamen uzaklaşmasından"
+      ],
+      "answerIndex": 3,
+      "explanation": "Touch grass, 'İnternetteki saçma sapan tartışmalara o kadar gömüldün ki gerçek dünyanın nasıl işlediğini unuttun, dışarı çık da gerçeklikle bir bağ kur' demektir."
+    },
+    {
+      "id": "q42",
+      "category": "Yapay Zeka Çalışma Prensibi",
+      "difficulty": "zor",
+      "prompt": "Üretken Yapay Zekaların (LLM) en tehlikeli yanı olan 'Halüsinasyon (Hallucination)' görmesinin veya uydurmasının algoritmik olarak asıl sebebi nedir?",
+      "choices": [
+        "Sunucu bağlantısının anlık olarak kopması veya internet ping süresinin uzaması",
+        "Kelimeleri anlamlandırarak veya 'bilerek' düşünmemesi; sadece devasa bir eğitim verisine dayanarak, milyarlarca parametre ile istatistiksel olarak 'bir sonraki en mantıklı kelimeyi' tahmin etmeye programlanmış olması",
+        "İnternetteki eski bilgileri bilinçli olarak silip yerine kendi yeni datasını yazma yetkisi verilmiş olması",
+        "Turing testini geçmek için yazılımcılar tarafından kasıtlı olarak insanlara yalan söyleme protokolü eklenmiş olması"
+      ],
+      "answerIndex": 1,
+      "explanation": "Yapay zeka (şimdilik) gerçeğin ne olduğunu bilmez. Sadece 'Bu kelimeden sonra hangi kelime gelirse kulağa mantıklı gelir?' olasılığını hesaplar. Bu yüzden bazen çok özgüvenli devasa yalanlar söyler."
+    },
+    {
+      "id": "q43",
+      "category": "Dijital Minimalizm",
+      "difficulty": "zor",
+      "prompt": "Teksas Üniversitesi'nin (UT Austin) yaptığı meşhur araştırmaya göre, akıllı telefonun sadece masada ters çevrili ve kapalı bir şekilde durmasının bile bireyin bilişsel kapasitesini (Brain Drain) düşürmesinin bilimsel nedeni nedir?",
+      "choices": [
+        "Telefonun kapalı bile olsa yaydığı radyo frekanslarının nöronlar arasındaki sinaps geçişlerini yavaşlatması",
+        "Telefon kamerasının veya mikrofonunun ortamı dinlediği hissinin alt beyinde sürekli bir paranoya yaratması",
+        "Beynin, telefonu eline alma ve bildirimleri kontrol etme dürtüsünü bastırmak için arka planda sürekli aktif bir enerji harcaması (Bilişsel Yük - Cognitive Load)",
+        "Ekrandan yansıyan ortam ışığının retina üzerinden melatonin seviyesini anında sıfırlaması"
+      ],
+      "answerIndex": 2,
+      "explanation": "Telefon yakındaysa beyninizin bir kısmı sürekli 'Acaba mesaj var mı? Telefona bakma! Hayır bakma!' diye direnç gösterir. Bu direnç, asıl işinize odaklanmanız gereken RAM'den yer çalar."
+    },
+    {
+      "id": "q44",
+      "category": "Yeşilay - Kurum Tarihi",
+      "difficulty": "zor",
+      "prompt": "Yeşilay, 5 Mart 1920'de hangi spesifik tarihi olay veya tehdide karşı milli bir direniş ve kamu sağlığı hareketi olarak 'Hilal-i Ahdar' adıyla kurulmuştur?",
+      "choices": [
+        "İngiliz işgal güçlerinin İstanbul'a gemilerle getirdikleri bedava alkolü gençlere dağıtarak direniş şuurunu kırma çabasına karşı",
+        "İspanyol Gribi salgınında, hastaların yanlış bir tedavi yöntemi olarak aşırı alkol kullanımını engellemek için",
+        "Balkan Savaşları sonrası cepheden dönen orduda artan tütün bağımlılığını tedavi etmek amacıyla",
+        "Cumhuriyetin ilanı sonrası yeni neslin modern yaşam alışkanlıklarını Batı standartlarına göre düzenlemek için"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ord. Prof. Dr. Mazhar Osman ve arkadaşları Yeşilay'ı, işgalcilerin toplumun ahlaki ve fiziksel direncini kırmak için limanlarda bedava içki dağıtmasına tepki olarak kurmuştur."
+    },
+    {
+      "id": "q45",
+      "category": "Yeşilay - Bağımlılık Psikolojisi",
+      "difficulty": "zor",
+      "prompt": "Yeşilay'ın YEDAM (Yeşilay Danışmanlık Merkezi) bünyesinde de uygulanan, bağımlılık tedavisinde bireyin değişime ne kadar hazır olduğunu ölçen ve 'Farkındalık Öncesi', 'Farkındalık', 'Eylem' gibi aşamalardan oluşan uluslararası modelin adı nedir?",
+      "choices": [
+        "Maslow'un İhtiyaçlar Hiyerarşisi Modeli",
+        "Freud'un Psikoanalitik Bağımlılık Modeli",
+        "Prochaska ve DiClemente'nin Transteoretik (Değişim Aşamaları) Modeli",
+        "Bandura'nın Sosyal Öğrenme Teorisi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bu model, bağımlı bir kişiye 'hemen bırak' demek yerine, onun 'bırakmayı düşünme' veya 'bırakmaya hazırlanma' evrelerinden hangisinde olduğunu tespit edip ona göre strateji geliştirmeyi sağlar."
+    },
+    {
+      "id": "q46",
+      "category": "Yeşilay - Teknoloji Bağımlılığı",
+      "difficulty": "zor",
+      "prompt": "Yeşilay literatüründe 'Teknoloji Bağımlılığı' altında incelenen; kişinin akıllı telefonundan fiziksel olarak uzak kaldığında, şarjı bittiğinde veya kapsama alanı dışına çıktığında yaşadığı aşırı panik, terleme ve 'bağlantısız kalma fobisi' literatürde hangi isimle anılır?",
+      "choices": [
+        "Siberkondri (Cyberchondria)",
+        "Fantom Titreşim Sendromu (Phantom Vibration Syndrome)",
+        "Netlesfobi (Netlessphobia)",
+        "Nomofobi (No Mobile Phone Phobia)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Nomofobi (No-Mobile-Phone Phobia), modern çağın en yaygın dijital kaygı bozukluğudur. Telefonunu evde unuttuğunda kalp atışı hızlanan herkes bu spektrumun bir yerindedir."
+    },
+    {
+      "id": "q47",
+      "category": "Yeşilay - Tütün/Vape Gerçekleri",
+      "difficulty": "zor",
+      "prompt": "Yeşilay'ın son yıllardaki raporlarında sıkça uyarıda bulunduğu 'E-Sigara (Puff/Vape)' endüstrisinin, özellikle gençleri ve lise öğrencilerini hedeflemek için kullandığı, bağımlılığı hızlandıran en sinsi biyokimyasal taktik hangisidir?",
+      "choices": [
+        "Cihazları sadece internet üzerinden kripto para ile satarak yaş doğrulama sistemlerini atlatmaları",
+        "Sıvılarda 'Nikotin Tuzları (Nicotine Salts)' kullanarak dumanın boğazı yakmasını engellemeleri ve böylece tek nefeste kana inanılmaz yüksek dozda nikotin karışmasını sağlamaları",
+        "Geleneksel sigaralardan daha büyük ve dikkat çekici paketlerde satılarak 'statü sembolü' haline getirilmeleri",
+        "Sadece eczanelerde reçeteyle satılarak 'sigara bırakma ilacı' izlenimi vermeleri"
+      ],
+      "answerIndex": 1,
+      "explanation": "Geleneksel sigaradan derin bir nefes alırsanız boğazınız yanar ve öksürürsünüz. Elektronik sigaralardaki asit-baz oyunları (nikotin tuzları) bu acı hissini yok eder, böylece gençler bir oturuşta 2 paket sigaraya denk nikotini fark etmeden çeker."
+    },
+    {
+      "id": "q48",
+      "category": "Yeşilay - Koruyucu Önleme",
+      "difficulty": "zor",
+      "prompt": "Yeşilay'ın, Milli Eğitim Bakanlığı (MEB) işbirliğiyle okullarda uyguladığı, anaokulundan liseye kadar yaş gruplarına özel pedagojik temellerle tasarlanmış Türkiye'nin en büyük, bilimsel temelli bağımlılık önleme eğitim programının kısaltması nedir?",
+      "choices": [
+        "TBM (Türkiye Bağımlılıkla Mücadele Eğitim Programı)",
+        "YEDAM (Yeşilay Danışmanlık Merkezi)",
+        "OBA (Okul Bağımlılık Ağı)",
+        "YEŞİL-AĞ Gençlik Programı"
+      ],
+      "answerIndex": 0,
+      "explanation": "TBM (Türkiye Bağımlılıkla Mücadele), tütün, alkol, madde, teknoloji bağımlılığı ve sağlıklı yaşam modüllerinden oluşan devasa bir koruyucu önleyici eğitim modelidir."
+    }
+  ]
+}

@@ -1,59 +1,34 @@
-import { headers as getHeaders } from 'next/headers.js'
-import Image from 'next/image'
-import { getPayload } from 'payload'
-import React from 'react'
-import { fileURLToPath } from 'url'
+import Hero from '@/components/home/Hero'
+import StatsBar from '@/components/home/StatsBar'
+import MotivationFeed from '@/components/home/MotivationFeed'
+import EventsGrid from '@/components/home/EventsGrid'
+import TeamScroll from '@/components/home/TeamScroll'
+import CTA from '@/components/home/CTA'
+import { getPayloadClient } from '@/lib/payload'
 
-import config from '@/payload.config'
-import './styles.css'
+export const revalidate = 60
 
 export default async function HomePage() {
-  const headers = await getHeaders()
-  const payloadConfig = await config
-  const payload = await getPayload({ config: payloadConfig })
-  const { user } = await payload.auth({ headers })
-
-  const fileURL = `vscode://file/${fileURLToPath(import.meta.url)}`
-
+  const payload = await getPayloadClient()
+  const [motivations, events, team] = await Promise.all([
+    payload.find({
+      collection: 'motivations',
+      where: { status: { equals: 'published' } },
+      sort: '-publishedAt',
+      depth: 1,
+      limit: 9,
+    }),
+    payload.find({ collection: 'events', sort: '-date', depth: 1, limit: 12 }),
+    payload.find({ collection: 'team', sort: 'order', depth: 1, limit: 12 }),
+  ])
   return (
-    <div className="home">
-      <div className="content">
-        <picture>
-          <source srcSet="https://raw.githubusercontent.com/payloadcms/payload/3.x/packages/ui/src/assets/payload-favicon.svg" />
-          <Image
-            alt="Payload Logo"
-            height={65}
-            src="https://raw.githubusercontent.com/payloadcms/payload/3.x/packages/ui/src/assets/payload-favicon.svg"
-            width={65}
-          />
-        </picture>
-        {!user && <h1>Welcome to your new project.</h1>}
-        {user && <h1>Welcome back, {user.email}</h1>}
-        <div className="links">
-          <a
-            className="admin"
-            href={payloadConfig.routes.admin}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Go to admin panel
-          </a>
-          <a
-            className="docs"
-            href="https://payloadcms.com/docs"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Documentation
-          </a>
-        </div>
-      </div>
-      <div className="footer">
-        <p>Update this page by editing</p>
-        <a className="codeLink" href={fileURL}>
-          <code>app/(frontend)/page.tsx</code>
-        </a>
-      </div>
-    </div>
+    <>
+      <Hero />
+      <StatsBar />
+      <MotivationFeed items={motivations.docs} />
+      <EventsGrid events={events.docs} />
+      <TeamScroll members={team.docs} />
+      <CTA />
+    </>
   )
 }

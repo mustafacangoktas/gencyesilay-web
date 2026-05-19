@@ -9,9 +9,12 @@ const dirname = path.dirname(__filename)
 const nextConfig: NextConfig = {
   images: {
     localPatterns: [
-      {
-        pathname: '/api/media/file/**',
-      },
+      { pathname: '/api/media/file/**' },
+      { pathname: '/icons/**' },
+    ],
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'plus.unsplash.com' },
     ],
   },
   webpack: (webpackConfig) => {
@@ -20,12 +23,9 @@ const nextConfig: NextConfig = {
       '.js': ['.ts', '.tsx', '.js', '.jsx'],
       '.mjs': ['.mts', '.mjs'],
     }
-
     return webpackConfig
   },
-  turbopack: {
-    root: path.resolve(dirname),
-  },
+  turbopack: { root: path.resolve(dirname) },
 }
 
 export default withPayload(nextConfig, { devBundleServerPackages: false })

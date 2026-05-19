@@ -48,3 +48,9 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+/docs
+
+/public/ig
+scripts/import-ig-events.ts
+*.db
